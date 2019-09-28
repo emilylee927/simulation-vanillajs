@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header>
+        <div id="left-header">
+            <img src="./assets/piggy_bank.svg" alt="piggy_bank">
+            <h1 id='logo'>Budget Builder</h1>
+        </div>
+        <h2 class='total' id='total'>Budget Total: $0</h2>
+    </header>
+    <section>
+        <div class='expenses' id='expenses'>
+            <div class='invis'></div>
+            <h2 class='title'>Monthly Expenses</h2>
+            <div id='data-table'>
+                <div class='data-row'>
+                    <p>Name</p>
+                    <p>$</p>
+                    <img class='trash-can' src='./assets/trash_can.svg' alt='trash_can'>
+                </div>
+            </div>
+        </div>
+        <form>
+            <h1 class="title">Add Bill</h1>
+            <div class="label-input">
+                <label for="namebill">Name</label>
+                <input id="namebill" />
+            </div>
+            <div class="label-input">
+                <label for="amountbill">Amount</label>
+                <input id="amountbill" />
+            </div>
+            <button class='add' id='addButton'>Add</button>
+        </form>
+    </section>
+    <div class='moneyDiv'>
+    <img class='money' src="giphy-1.gif" alt="">
+    </div>
+<script src='./index.js'></script>    
+</body>
+</html>

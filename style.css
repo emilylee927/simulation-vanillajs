@@ -1,0 +1,134 @@
+/* font-family: 'Righteous', cursive;
+font-family: 'Roboto, sans-serif; */
+
+body{
+    margin:0;
+    color:rgb(65, 64, 64);
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+}
+header{
+    background-color: rgb(77, 77, 77);
+    height:150px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:0;
+    align-items: center;
+}
+
+#left-header {
+    display: flex;
+    flex-direction: row;
+}
+
+#left-header img{
+    margin-left:20px;
+}
+
+#logo{
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-left:30px;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+
+}
+
+.total{
+    margin-right: 30px;
+    color:white;
+    font-size: 32px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.expenses {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 229, 211);
+    padding: 10px 20px 40px;
+}
+
+.expenses .invis {
+    width: 350px;
+}
+
+.data-row{
+    display: grid;
+    grid-template-columns: 130px auto 40px;
+}
+
+.data-row * {
+    align-self: center;
+}
+
+form {
+    background-color: rgb(96, 223, 240);
+    padding: 10px 40px;
+}
+
+form * {
+    margin: 5px 0 10px;
+}
+
+.title {
+    font-size: 32px;
+    padding-top: 10px;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+.label-input{
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: center;
+}
+
+.label-input * {
+    margin: 5px 10px 5px 10px;
+}
+
+.label-input input {
+    background-color: white;
+    height:40px;
+    width:280px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.add{
+    background-color:rgb(77, 77, 77);
+    color:white;
+    height:50px;
+    width:100%;
+    border:1px solid black;
+    border-radius: 8px;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.add:hover{
+    cursor: pointer;
+    background-color:rgb(245, 229, 139);
+    border: 5px solid white;
+    
+}
+
+.moneyDiv{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:240px;
+    margin-top:40px;
+}
+.money{
+    height:140px;
+   
+}
